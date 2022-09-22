@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8080
-ADD target/spring-docker.jar spring-docker.jar
-ENTRYPOINT ["java","-jar","/spring-docker.jar"]
+ADD target/asaq12.jar asaq12.jar
+ENTRYPOINT ["java","-jar","/asaq12.jar"]
